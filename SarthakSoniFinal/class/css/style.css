@@ -1,0 +1,368 @@
+html,body{
+max-width: 100%;
+   overflow-x: hidden;
+}
+@font-face{
+    font-family: 'Roboto';
+    /*src:url(/home/sartha/Desktop/DevProject/SarthakSoniFinal/class/fonts/Roboto-Black.woff);*/
+    /*src:url(/home/sartha/Desktop/DevProject/SarthakSoniFinal/class/fonts/Roboto-Black.otf);*/
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888888;
+    letter-spacing: 0;
+    font-weight: normal;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+#imgbg{
+    height: 600px;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 500;
+    margin-top: 0px;
+    background-color: transparent;
+}
+nav img{
+    width: 262px;
+    margin-left: 50px;
+}
+nav ul{
+    margin: 0px;
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li a{
+    display: inline;
+    vertical-align: top;
+    align-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 65px;
+    padding: 10px;
+    color: #fff; 
+}
+nav li a:hover{
+    background-color: #fff;
+    color: #628292;
+}
+.textwidget {
+    top: 66%;
+    left: 25%;
+    word-wrap: break-word;
+    position: absolute;
+    font: 300 40px/48px 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    padding: 34px 0 45px;
+}
+.welcome p{
+    position: relative;
+    font: 300 20px/28px 'Roboto', sans-serif;
+    color: #aaaaaa;
+    padding: 0 4%;
+}
+.welcome p a{
+    text-decoration: none;
+}
+h2{
+    position: relative;
+    font-weight: 300 !important;
+    margin-bottom: 38px;
+    font: normal 36px/36px Roboto, sans-serif;
+    color: #3f3f3f;
+}
+.outside{
+    margin-top: -32px;
+    background-color: #F5F5F5;
+}
+h3{
+    position: relative;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+a h3{
+    color: #3E3E3E;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.gsc_container .post{
+    position: relative;
+    font: normal 12px/18px 'Roboto', sans-serif;
+    color: #a3a3a3;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.gsc_container p{
+    position: relative;
+    margin-bottom: 29px;
+    text-align: center;
+}
+.box{
+    position: relative;
+    padding: 42px 0 51px;
+    text-align: center;
+}
+.news{
+    position: relative;
+}
+.news p{
+    top: 2%;
+    left: 38%;
+    position: absolute;
+    font: 300 40px/48px 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+
+}
+.row {
+  margin-left: -85px;
+  margin-right: -85px;
+}
+.calendar{
+    color: #fff;
+}
+.calendar a{
+    display: block;
+    color: #fff;
+}
+.calendar b{
+    position: relative;
+    display: block;
+    float: left;
+    font: 300 60px/41px 'Roboto', sans-serif;
+    padding: 2px 41px 0 0;
+}
+.calendar em {
+    position: relative;
+    font-size: 36px;
+    font-style: normal;
+    top: -5px;
+}
+.email{
+    margin-left: -30px;
+    position: relative;
+    margin-bottom: 61px;
+}
+.email h3{
+    margin-bottom: 16px;
+    color: #3f3f3f;
+}
+.email p{
+    line-height: 21px;
+    padding-left: 53px;
+    color: #8e8e8e;
+}
+.nsu-form {
+    position: relative;
+    margin: 23px 0 61px;
+}
+.nsu-form label {
+    display: none;
+}
+.nsu-form p .nsu-field {
+    position: relative;
+    border: 1px solid #cccccc !important;
+    background: #fff !important;
+    font: 300 italic 20px/22px 'Roboto', sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #8e8e8e !important;
+    padding: 17px 20px 16px !important;
+    min-height: 31px !important;
+    width: 500px !important;
+    margin-right: 14px !important;
+}
+.nsu-form p {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.nsu-form > p:last-child {
+    position: relative;
+    display: block;
+}
+.nsu-form .nsu-submit {
+    float: left;
+    font: normal 24px/24px 'Roboto', sans-serif;
+    color: #fff;
+    border: none;
+    background: #e2608d;
+    text-transform: uppercase;
+    padding: 21px 57px 21px 35px;
+    letter-spacing: -1px;
+    height: auto;
+    min-height: 66px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.x{
+}
+.gsc_container h3{
+    margin-bottom: 31px;
+    color: #3F3F3F;
+}
+.hx h5{
+    position: relative;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    color: #678293;
+    text-align: center;
+}
+.hx h5 a:hover{
+    color: #3F3F3F;
+}
+.x{
+    text-align: center;
+    position: relative;
+    font: 300 18px/28px 'Roboto', sans-serif;
+    padding: 0 9%;
+}
+.footer-below
+{
+    color: #fff;
+    background: #a5a7a5;
+    padding: 30px 0px 21px;
+    border-bottom: 10px solid #fff;
+}
+.footer-below li{
+    list-style: none;
+    position: relative;
+    font: 300 18px/28px 'Roboto', sans-serif;
+}
+.footer-below ul{
+    float: right;
+}
+.footer-below ul li{
+    display: inline-block;
+}
+.footer-below p{
+    float: left;
+}
+.subscribe-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.subscribe-section p{
+    line-height: 20px;
+    color: #8e8e8e;
+}
+.subscribe-section h3{
+    margin-top: 1px;
+    font-weight:200;
+    font-size: 38px;
+}
+.email-field{
+    border: 1px solid #cccccc;
+    background: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.subscribe-button
+{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    background-color: #F03389;
+    color: #fff;
+    padding: 20px;
+}
+.news-events{
+    margin-top: 50px;
+    background-image: url(../images/parallax_pic1.jpg);
+    background-repeat: repeat;
+    padding:50px;
+}
+.news-events h3{
+    text-align: center;
+    font-weight: lighter;
+    color: #FFF;
+    font-size: 30px;
+}
+.news-events hr{
+    width: 30%;
+    color: #000;
+    margin-bottom: 50px;
+}
+.btn-more{
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn-more button{
+    padding: 20px;
+    color: #FFF;
+    background-color: inherit;
+    border:1px solid white;
+}
+.y{
+    border: 1px solid #FFF;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: none;
+}
+.clic{
+    cursor: pointer;
+}
+.container {
+  position: relative;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.item img {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.container:hover .item img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+
